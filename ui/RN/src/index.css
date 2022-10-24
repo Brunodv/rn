@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+body {
+  margin:0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing:antialised;
+  -moz-osx-font-smoothing:grayscale;
+ /* background-image:  linear-gradient(rgba(45, 0, 0, 0.50) 8%, rgba(0, 0, 0, 0.50) 100%), url(../src/media/baner.jpg);*/
+ /* background-image: url(../src/media/bg.jpg);*/
+  /*background-color: rgb(52,88,115);*/
+  background: linear-gradient(190deg, #1a5c61 0, #195c65 7.14%, #1a5b68 14.29%, #1d5b6b 21.43%, #225a6e 28.57%, #275970 35.71%, #2d5872 42.86%, #335773 50%, #395674 57.14%, #405474 64.29%, #465373 71.43%, #4c5272 78.57%, #525071 85.71%, #584f6f 92.86%, #5d4d6c 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+
+nav a{
+  text-decoration: none;
+}
+
