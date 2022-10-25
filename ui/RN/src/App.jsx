@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/home';
 import We from './pages/ejes';
-import Noticias from './pages/noticias';
+import Noticias from './pages/noticias';//
 import Noticia from "./pages/noticia";
 import Redes from './pages/redes';
 import Contacto from './pages/contacto';
