@@ -352,6 +352,8 @@ grid-template-columns: repeat(3, 1fr);
 /*noticias*/
 export const DivNoticias = styled.div`
 text-align:center;
+height:335px;
+padding-top:80px;
 `
 export const ArticleNoticia=styled.article`
 border:1px solid rgb(167,199,231);
