@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const cors = require('cors');
 const errorMiddleware = require("./middleware/error")
+const path = require("path");
 /*const session = require('express-session')
 
 app.use(session({
@@ -37,6 +38,11 @@ const user = require("./routes/userRoute");
 
 app.use("/api/v1", pub);
 app.use("/api/v1", user);
+
+app.use(express.static(path.join(__dirname,"../ui/RN/dist")));
+app.get("*",(req,res)=>{
+  res,sendFile(path.resolve(__dirname,"../ui/RN/dist/index.html"));
+});
 //Midleware for Errors
 app.use(errorMiddleware);
 
