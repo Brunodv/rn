@@ -1,12 +1,15 @@
 {
+  "homepage": "https://Brunodv.github.io/rn",
   "name": "realidadnacional",
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node b/server.js",
-    "dev": "nodemon b/server.js",
+    "dev": "nodemon b/server.js"
   },
   "author": "Bruno Francisco Dulanto Valentin",
   "license": "ISC",
